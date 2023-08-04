@@ -47,3 +47,4 @@ class Notepad:
         self.root.bind_all("<Control-y>", lambda event: self.text_area.edit_redo())
         self.root.bind_all("<Any-KeyPress>", self.update_status_bar)
         self.root.bind_all("<Control-T>", lambda event: self.toggle_dark_mode())
+
