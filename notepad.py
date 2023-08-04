@@ -14,3 +14,4 @@ class Notepad:
 
         # Status Bar
         self.status_bar = tk.Label(self.root, text="Line: 1 | Column: 0")
+        self.status_bar.pack(side=tk.BOTTOM, fill=tk.X)
