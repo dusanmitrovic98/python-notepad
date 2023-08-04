@@ -81,3 +81,4 @@ class Notepad:
             self.current_file = file_path
 
     def update_status_bar(self, event=None):
+        cursor_position = self.text_area.index(tk.INSERT)
