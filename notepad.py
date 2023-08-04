@@ -59,3 +59,4 @@ class Notepad:
                 content = file.read()
                 self.text_area.delete(1.0, tk.END)
                 self.text_area.insert(tk.END, content)
+                self.current_file = file_path
