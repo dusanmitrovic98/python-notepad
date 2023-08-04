@@ -37,3 +37,4 @@ class Notepad:
         menubar.add_cascade(label="View", menu=view_menu)
 
         self.root.config(menu=menubar)
+
