@@ -80,3 +80,4 @@ class Notepad:
                 file.write(content)
             self.current_file = file_path
 
+    def update_status_bar(self, event=None):
