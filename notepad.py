@@ -50,3 +50,4 @@ class Notepad:
 
     def new_file(self):
         self.text_area.delete(1.0, tk.END)
+        self.current_file = None
