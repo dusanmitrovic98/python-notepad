@@ -24,3 +24,4 @@ class Notepad:
         file_menu.add_command(label="Save", command=self.save_file, accelerator="Ctrl+S")
         file_menu.add_command(label="Save As", command=self.save_file_as, accelerator="Ctrl+Shift+S")
         file_menu.add_separator()
+        file_menu.add_command(label="Exit", command=self.root.quit, accelerator="Alt+F4")
