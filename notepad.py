@@ -71,3 +71,4 @@ class Notepad:
                 self.save_file_as()
         except Exception as e:
             messagebox.showerror("Error", f"An error occurred while saving the file: {e}")
+
