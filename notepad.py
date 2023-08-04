@@ -12,3 +12,4 @@ class Notepad:
         self.create_menu()
         self.create_shortcuts()
 
+        # Status Bar
