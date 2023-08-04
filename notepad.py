@@ -26,3 +26,4 @@ class Notepad:
         file_menu.add_separator()
         file_menu.add_command(label="Exit", command=self.root.quit, accelerator="Alt+F4")
         menubar.add_cascade(label="File", menu=file_menu)
+
