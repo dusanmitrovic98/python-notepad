@@ -27,3 +27,4 @@ class Notepad:
         file_menu.add_command(label="Exit", command=self.root.quit, accelerator="Alt+F4")
         menubar.add_cascade(label="File", menu=file_menu)
 
+        edit_menu = tk.Menu(menubar, tearoff=0)
