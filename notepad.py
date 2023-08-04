@@ -76,3 +76,4 @@ class Notepad:
         file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
         if file_path:
             content = self.text_area.get(1.0, tk.END)
+            with open(file_path, "w") as file:
