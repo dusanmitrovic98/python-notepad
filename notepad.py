@@ -63,3 +63,4 @@ class Notepad:
 
     def save_file(self):
         try:
+            if self.current_file:
