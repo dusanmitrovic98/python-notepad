@@ -53,3 +53,4 @@ class Notepad:
         self.current_file = None
 
     def open_file(self):
+        file_path = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
