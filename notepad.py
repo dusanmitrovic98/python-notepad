@@ -79,3 +79,4 @@ class Notepad:
             with open(file_path, "w") as file:
                 file.write(content)
             self.current_file = file_path
+
