@@ -67,3 +67,4 @@ class Notepad:
                 content = self.text_area.get(1.0, tk.END)
                 with open(self.current_file, "w") as file:
                     file.write(content)
+            else:
