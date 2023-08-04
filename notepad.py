@@ -13,3 +13,4 @@ class Notepad:
         self.create_shortcuts()
 
         # Status Bar
+        self.status_bar = tk.Label(self.root, text="Line: 1 | Column: 0")
