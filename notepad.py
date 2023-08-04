@@ -73,3 +73,4 @@ class Notepad:
             messagebox.showerror("Error", f"An error occurred while saving the file: {e}")
 
     def save_file_as(self):
+        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
