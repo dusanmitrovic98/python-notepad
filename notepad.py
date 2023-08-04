@@ -61,3 +61,4 @@ class Notepad:
                 self.text_area.insert(tk.END, content)
                 self.current_file = file_path
 
+    def save_file(self):
