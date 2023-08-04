@@ -45,3 +45,4 @@ class Notepad:
         self.root.bind_all("<Control-S>", lambda event: self.save_file_as())
         self.root.bind_all("<Control-z>", lambda event: self.text_area.edit_undo())
         self.root.bind_all("<Control-y>", lambda event: self.text_area.edit_redo())
+        self.root.bind_all("<Any-KeyPress>", self.update_status_bar)
