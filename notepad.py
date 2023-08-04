@@ -62,3 +62,4 @@ class Notepad:
                 self.current_file = file_path
 
     def save_file(self):
+        try:
