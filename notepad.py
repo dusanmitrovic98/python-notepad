@@ -38,3 +38,4 @@ class Notepad:
 
         self.root.config(menu=menubar)
 
+    def create_shortcuts(self):
