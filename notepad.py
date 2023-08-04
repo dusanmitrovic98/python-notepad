@@ -40,3 +40,4 @@ class Notepad:
 
     def create_shortcuts(self):
         self.root.bind_all("<Control-n>", lambda event: self.new_file())
+        self.root.bind_all("<Control-o>", lambda event: self.open_file())
