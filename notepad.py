@@ -35,3 +35,4 @@ class Notepad:
         view_menu = tk.Menu(menubar, tearoff=0)
         view_menu.add_command(label="Toggle Dark Mode", command=self.toggle_dark_mode, accelerator="Ctrl+T")
         menubar.add_cascade(label="View", menu=view_menu)
+
