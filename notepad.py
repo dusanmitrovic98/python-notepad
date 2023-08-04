@@ -43,3 +43,4 @@ class Notepad:
         self.root.bind_all("<Control-o>", lambda event: self.open_file())
         self.root.bind_all("<Control-s>", lambda event: self.save_file())
         self.root.bind_all("<Control-S>", lambda event: self.save_file_as())
+        self.root.bind_all("<Control-z>", lambda event: self.text_area.edit_undo())
