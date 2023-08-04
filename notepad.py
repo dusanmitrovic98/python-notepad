@@ -17,3 +17,4 @@ class Notepad:
         self.status_bar.pack(side=tk.BOTTOM, fill=tk.X)
 
     def create_menu(self):
+        menubar = tk.Menu(self.root)
