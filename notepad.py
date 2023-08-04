@@ -10,3 +10,4 @@ class Notepad:
         self.current_file = None
         self.dark_mode = False  # Default is light mode
         self.create_menu()
+        self.create_shortcuts()
