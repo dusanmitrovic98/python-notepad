@@ -69,3 +69,4 @@ class Notepad:
                     file.write(content)
             else:
                 self.save_file_as()
+        except Exception as e:
