@@ -8,3 +8,4 @@ class Notepad:
         self.text_area = tk.Text(self.root, undo=True)
         self.text_area.pack(expand=True, fill='both')
         self.current_file = None
+        self.dark_mode = False  # Default is light mode
