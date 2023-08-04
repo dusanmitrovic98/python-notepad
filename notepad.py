@@ -32,3 +32,4 @@ class Notepad:
         edit_menu.add_command(label="Redo", command=self.text_area.edit_redo, accelerator="Ctrl+Y")
         menubar.add_cascade(label="Edit", menu=edit_menu)
 
+        view_menu = tk.Menu(menubar, tearoff=0)
