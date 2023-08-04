@@ -48,3 +48,4 @@ class Notepad:
         self.root.bind_all("<Any-KeyPress>", self.update_status_bar)
         self.root.bind_all("<Control-T>", lambda event: self.toggle_dark_mode())
 
+    def new_file(self):
