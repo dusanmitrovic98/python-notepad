@@ -57,3 +57,4 @@ class Notepad:
         if file_path:
             with open(file_path, "r") as file:
                 content = file.read()
+                self.text_area.delete(1.0, tk.END)
