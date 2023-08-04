@@ -56,3 +56,4 @@ class Notepad:
         file_path = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
         if file_path:
             with open(file_path, "r") as file:
+                content = file.read()
