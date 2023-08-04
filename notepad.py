@@ -11,3 +11,4 @@ class Notepad:
         self.dark_mode = False  # Default is light mode
         self.create_menu()
         self.create_shortcuts()
+
