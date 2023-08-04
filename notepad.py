@@ -39,3 +39,4 @@ class Notepad:
         self.root.config(menu=menubar)
 
     def create_shortcuts(self):
+        self.root.bind_all("<Control-n>", lambda event: self.new_file())
