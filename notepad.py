@@ -18,3 +18,4 @@ class Notepad:
 
     def create_menu(self):
         menubar = tk.Menu(self.root)
+        file_menu = tk.Menu(menubar, tearoff=0)
