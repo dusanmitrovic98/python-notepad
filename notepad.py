@@ -75,3 +75,4 @@ class Notepad:
     def save_file_as(self):
         file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
         if file_path:
+            content = self.text_area.get(1.0, tk.END)
