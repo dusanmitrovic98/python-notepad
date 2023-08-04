@@ -68,3 +68,4 @@ class Notepad:
                 with open(self.current_file, "w") as file:
                     file.write(content)
             else:
+                self.save_file_as()
