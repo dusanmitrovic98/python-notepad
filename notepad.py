@@ -64,3 +64,4 @@ class Notepad:
     def save_file(self):
         try:
             if self.current_file:
+                content = self.text_area.get(1.0, tk.END)
