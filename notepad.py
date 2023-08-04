@@ -77,3 +77,4 @@ class Notepad:
         if file_path:
             content = self.text_area.get(1.0, tk.END)
             with open(file_path, "w") as file:
+                file.write(content)
