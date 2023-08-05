@@ -6,3 +6,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 
 - Create a new text file
 - Open an existing text file
+- Save the current content to the current file
