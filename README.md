@@ -28,3 +28,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - Save File: `Ctrl + S`
 - Save File As: `Ctrl + Shift + S`
 - Undo: `Ctrl + Z`
+- Redo: `Ctrl + Y`
