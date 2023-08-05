@@ -84,3 +84,4 @@ class Notepad:
         cursor_position = self.text_area.index(tk.INSERT)
         line, column = cursor_position.split('.')
         line_num, col_num = int(line), int(column)
+        status_text = f"Line: {line_num} | Column: {col_num}"
