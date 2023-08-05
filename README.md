@@ -12,3 +12,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - Toggle between light mode and dark mode
 
 ## Usage
+
