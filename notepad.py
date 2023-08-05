@@ -91,3 +91,4 @@ class Notepad:
         self.dark_mode = not self.dark_mode
         bg_color = "#505050" if self.dark_mode else "white"
         fg_color = "white" if self.dark_mode else "black"
+        self.root.configure(bg=bg_color)
