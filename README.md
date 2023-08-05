@@ -19,3 +19,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 ## Requirements
 
 - Python 3
+- Tkinter library (usually comes with Python)
