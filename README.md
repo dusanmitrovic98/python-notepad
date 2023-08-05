@@ -16,3 +16,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 1. Clone the repository or download the `notepad.py` file.
 2. Run the script using `python notepad.py`.
 
+## Requirements
