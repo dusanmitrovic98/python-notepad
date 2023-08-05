@@ -24,3 +24,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 ## Keyboard Shortcuts
 
 - New File: `Ctrl + N`
+- Open File: `Ctrl + O`
