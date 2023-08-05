@@ -87,3 +87,4 @@ class Notepad:
         status_text = f"Line: {line_num} | Column: {col_num}"
         self.status_bar.config(text=status_text)
 
+    def toggle_dark_mode(self):
