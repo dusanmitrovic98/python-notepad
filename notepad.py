@@ -88,3 +88,4 @@ class Notepad:
         self.status_bar.config(text=status_text)
 
     def toggle_dark_mode(self):
+        self.dark_mode = not self.dark_mode
