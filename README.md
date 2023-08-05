@@ -9,3 +9,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - Save the current content to the current file
 - Save the content to a new file (Save As)
 - Undo and Redo text edits
+- Toggle between light mode and dark mode
