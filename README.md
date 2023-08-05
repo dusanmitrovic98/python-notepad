@@ -13,3 +13,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 
 ## Usage
 
+1. Clone the repository or download the `notepad.py` file.
