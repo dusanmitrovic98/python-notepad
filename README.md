@@ -11,3 +11,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - Undo and Redo text edits
 - Toggle between light mode and dark mode
 
+## Usage
