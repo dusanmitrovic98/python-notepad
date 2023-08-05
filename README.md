@@ -30,3 +30,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - Undo: `Ctrl + Z`
 - Redo: `Ctrl + Y`
 - Toggle Dark Mode: `Ctrl + T`
+
