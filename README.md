@@ -8,3 +8,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - Open an existing text file
 - Save the current content to the current file
 - Save the content to a new file (Save As)
+- Undo and Redo text edits
