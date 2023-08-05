@@ -95,3 +95,4 @@ class Notepad:
         self.text_area.configure(bg=bg_color, fg=fg_color)
         self.status_bar.configure(bg=bg_color, fg=fg_color)
 
+if __name__ == "__main__":
