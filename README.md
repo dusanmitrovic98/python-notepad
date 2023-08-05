@@ -26,3 +26,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - New File: `Ctrl + N`
 - Open File: `Ctrl + O`
 - Save File: `Ctrl + S`
+- Save File As: `Ctrl + Shift + S`
