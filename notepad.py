@@ -89,3 +89,4 @@ class Notepad:
 
     def toggle_dark_mode(self):
         self.dark_mode = not self.dark_mode
+        bg_color = "#505050" if self.dark_mode else "white"
