@@ -93,3 +93,4 @@ class Notepad:
         fg_color = "white" if self.dark_mode else "black"
         self.root.configure(bg=bg_color)
         self.text_area.configure(bg=bg_color, fg=fg_color)
+        self.status_bar.configure(bg=bg_color, fg=fg_color)
