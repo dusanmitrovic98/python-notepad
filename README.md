@@ -17,3 +17,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 2. Run the script using `python notepad.py`.
 
 ## Requirements
+
