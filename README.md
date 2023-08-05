@@ -27,3 +27,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 - Open File: `Ctrl + O`
 - Save File: `Ctrl + S`
 - Save File As: `Ctrl + Shift + S`
+- Undo: `Ctrl + Z`
