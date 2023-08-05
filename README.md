@@ -1,1 +1,1 @@
-# python-notepad
+# Notepad Application using Tkinter
