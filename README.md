@@ -4,3 +4,4 @@ A simple notepad application implemented using Python's Tkinter library. It allo
 
 ## Features
 
+- Create a new text file
