@@ -83,3 +83,4 @@ class Notepad:
     def update_status_bar(self, event=None):
         cursor_position = self.text_area.index(tk.INSERT)
         line, column = cursor_position.split('.')
+        line_num, col_num = int(line), int(column)
