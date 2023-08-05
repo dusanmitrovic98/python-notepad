@@ -96,3 +96,4 @@ class Notepad:
         self.status_bar.configure(bg=bg_color, fg=fg_color)
 
 if __name__ == "__main__":
+    root = tk.Tk()
